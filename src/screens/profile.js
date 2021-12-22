@@ -1,6 +1,6 @@
 import React from 'react';
 import './profile.css';
-import Nav from '../components/nav/nav';
+import Nav from '../components/nav';
 import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import { auth } from '../firebase.js'; 
